@@ -1,6 +1,6 @@
 function test() {
     var input, filter, table, tr, td, i, txtValue;
-    input = document.getElementById("filterDemo");
+    input = document.getElementById("filterAja");
     filter = input.value.toUpperCase();
     table = document.getElementById("tabel");
     tr = table.getElementsByTagName("tr");
