@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#demo {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    margin-bottom: 20px;
+}
+#dataIni {
+    background-color: lightblue;
+    width: 100%;
+    font-size: 10pt;
+    text-align: center;
+}
+#dataIni td{
+    padding: 0 5px;
+    border: 1px black solid;
+}
+table {
+    margin: auto;
+    border: 4px black solid;
+    font-size: 10pt;
+}
+#tableHead th {
+    font-size: 16pt;
+    text-align: center;
+    border: 2px black solid;
+    margin: 0 50px;
+    background-color: lightgrey;
+}
+#filterDemo {
+    background-image: url(https://image.flaticon.com/icons/svg/49/49116.svg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 40%;
+    font-size: 16px;
+    padding: 12px 20px 12px 50px;
+    border: 2px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+#tableHead, #dataIni {
+    margin: 20px;
+}
